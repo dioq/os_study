@@ -1,0 +1,21 @@
+# how much memory the emulated machine will have
+megs: 32
+
+# filename of ROM images
+romimage: file=/home/me/VirtualMachine/bochs-2.7/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/home/me/VirtualMachine/bochs-2.7/share/bochs/VGABIOS-lgpl-latest
+
+# what disk images will be used
+floppya: 1_44=mbr.img, status=inserted
+
+# choose the boot disk.
+boot: floppy
+
+# where do we send log messages?
+# log: bochsout.txt
+
+# disable the mouse
+mouse: enabled=1
+
+# enable key mapping, using US layout as default.
+keyboard:keymap=/home/me/VirtualMachine/bochs-2.7/share/bochs/keymaps/x11-pc-us.map

@@ -54,6 +54,6 @@
 
     jmp $                   ; 使程序悬停在此
 
-    message db "Hello, this is my first os program ..."
+    message db "Let Guanghui and I spend a year learning operating systems together!"
     times 510-($-$$) db 0
     db 0x55,0xaa
